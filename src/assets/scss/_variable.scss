@@ -1,0 +1,58 @@
+/* Color styles */
+$black: #000000;
+$blue-4: #68A2FA;
+$blue-10: #001337;
+$blue-9: #001D5E;
+$blue-8: #002B8D;
+$blue-7: #003FC2;
+$blue-6: #005CF7;
+$blue-5: #3382F9;
+$blue-4: #68A2FA;
+$blue-3: #9AC3FC;
+$blue-2: #C9DFFD;
+$blue-1: #EAF4FE;
+$black: #000000;
+$gray-10: #161616;
+$gray-9: #222222;
+$gray-8: #323232;
+$gray-7: #484848;
+$gray-6: #646464;
+$gray-5: #828282;
+$gray-4: #9E9E9E;
+$gray-3: #BFBFBF;
+$gray-2: #DCDCDC;
+$gray-1: #F2F2F2;
+$white: #FFFFFF;
+$danger: #D60025;
+$orange: #FF7131;
+$warning: #FFD569;
+$success: #219847;
+
+$font-ratio:62.5%;
+$heading-01:6.4rem;
+$heading-02:4.2rem;
+$heading-03:3.6rem;
+$heading-04:2.8rem;
+$heading-05:2.4rem;
+$heading-06:1.8rem;
+
+// 모바일
+$breakpoint-mobile: 200px;
+
+// 모바일에서 태블릿
+$breakpoint-tabletToMobile: 535px;
+
+// 태블릿
+$breakpoint-tablet: 720px;
+
+// 태블릿에서 노트북
+$breakpoint-laptopToTablet: 960px;
+
+// 노트북
+$breakpoint-laptop: 1024px;
+
+// 노트북에서 데스크탑
+$breakpoint-desktopToLaptop: 1500px;
+
+// 데스크탑
+$breakpoint-desktop: 1800px;
