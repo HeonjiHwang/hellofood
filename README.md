@@ -1,2 +1,2 @@
 # hellofood
- hello food client management system
+ hello food customer management system
