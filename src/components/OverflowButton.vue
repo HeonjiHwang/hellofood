@@ -28,21 +28,22 @@
         isOpen.value = true;
     }
     function blur(){
-        console.log("blur");
         isOpen.value = false;
     }
     function clickMenu(menu){
-        if(menu == 'M'){
-            emit('onModify');
-            isOpen.value = false;
+        switch(menu){
+            case 'M':
+                emit('onModify');   
+                break;
+            case 'R':
+                emit('onRemove')
+                break;
+            case 'D':
+                emit('onDetail')
+                break;
+            default:
+                break;
         }
-        else if(menu == 'R'){
-            emit('onRemove')
-            isOpen.value = false;
-        }
-        else if(menu == 'D'){
-            emit('onDetail')
-            isOpen.value = false;
-        }
+        isOpen.value = false;
     }
 </script>

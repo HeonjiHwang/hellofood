@@ -1,11 +1,20 @@
 .btn{
     height: 3.8rem;
-    min-width:12rem;
     width:fit-content;
     text-align: left;
     padding: 0 1.2rem;
+    min-width:16rem;
+    white-space: nowrap;
     font-size:1.4rem;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    &.icon-only{
+        padding:.5rem;
+        color:$blue-5;
+        min-width: 0px;
+    }
 
     &.btn-blue-5{
         background-color:$blue-5;
@@ -14,6 +23,63 @@
     &.btn-blue-6{
         background-color: $blue-6;
         color:$white;
+    }
+    &.btn-blue-7{
+        background-color: $blue-7;
+        color:$white;
+    }
+    &.btn-gray-1{
+        background-color: $gray-1;
+        color:$black;
+    }
+    &.btn-gray-2{
+        background-color: $gray-2;
+        color:$black;
+    }
+    &.btn-gray-3{
+        background-color: $gray-3;
+        color:$black;
+    }
+    &.btn-gray-4{
+        background-color: $gray-4;
+    }
+    &.btn-gray-5{
+        background-color: $gray-5;
+        color:$white;
+    }
+    &.btn-gray-6{
+        background-color: $gray-6;
+        color:$white;
+    }
+    &.btn-gray-7{
+        background-color: $gray-7;
+        color:$white;
+    }
+    &.btn-gray-8{
+        background-color: $gray-8;
+        color:$white;
+    }
+    &.btn-gray-9{
+        background-color: $gray-9;
+        color:$white;
+    }
+    &.btn-gray-10{
+        background-color: $gray-10;
+        color:$white;
+    }
+    &.btn-warning{
+        background-color: $warning;
+        color:$black;
+    }
+}
+
+.btn-wrapper{
+    display: flex;
+    justify-content: flex-end;
+    margin-top:2rem;
+
+    &.icon-only{
+        margin:0;
     }
 }
 
